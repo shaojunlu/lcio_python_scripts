@@ -1,0 +1,30 @@
+<pylcio>
+    <inputFiles>
+      <file> ILD_l5_o1_v02_v02-00-02_E0500-TDR_ws.Pyycyyc.Gwhizard-1.95.eR.pL.I36919.05_mdst.slcio </file>
+    </inputFiles>
+    
+    <control>
+    	<skipEvents>0</skipEvents>
+        <numberOfEvents>-1</numberOfEvents>
+        <printDrivers>True</printDrivers>
+        <printStatistics>true</printStatistics>
+    </control>
+    
+    <execute>
+        <driver name="markerDriver"/>
+        <driver name="TrackPlotsDriver"/>
+    </execute>
+    
+    <drivers>
+        <driver name="markerDriver" type="pyLCIO.drivers.EventMarkerDriver.EventMarkerDriver">
+            <interval> 100 </interval>
+            <showRunNumber> False </showRunNumber>
+        </driver>
+        <driver name="TrackPlotsDriver" type="exampleDrivers.TrackPlotsDriver.TrackPlotsDriver">
+	    <rootFileNameTrackPlots> EffTrk2D.root </rootFileNameTrackPlots>
+	</driver>
+    </drivers>
+</pylcio>
+
+<!--root.Draw("COL2Z") "0" in darkblue-->
+<!--root.Draw("COL1Z") "0" in white-->
