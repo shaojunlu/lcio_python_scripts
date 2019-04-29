@@ -2,6 +2,9 @@ Examples for generating root histograms using LCIO from python
 ==============================================================
 It distributed under the [LGPLv3 License](http://www.gnu.org/licenses/lgpl-3.0.en.html)
 
+[![License](https://www.gnu.org/graphics/lgplv3-147x51.png)](https://www.gnu.org/licenses/lgpl-3.0.en.html)
+
+
 ## basic setup
 ```
 source /cvmfs/ilc.desy.de/sw/x86_64_gcc49_sl6/v02-00-02/init_ilcsoft.sh
